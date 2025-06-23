@@ -74,8 +74,11 @@ cd backend
 🧰 Technologies Used
 
 Backend :	Spring Boot, Spring Data JPA
+
 Frontend :	React.js, Axios, React Router
+
 Database :	PostgreSQL
+
 Testing :	JUnit, Mockito
 
 📬 API Endpoints (Backend) :
