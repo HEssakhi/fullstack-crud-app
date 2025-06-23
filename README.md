@@ -24,13 +24,16 @@ Update your PostgreSQL credentials in : backend/src/main/resources/application.p
 
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/fullstackdb
+
 spring.datasource.username=postgres
-spring.datasource.password=1234
+spring.datasource.password=yourpassword
 
 spring.sql.init.mode=always
+
 spring.sql.init.schema-locations=classpath:schema.sql
 
 spring.jpa.hibernate.ddl-auto=none
+
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
